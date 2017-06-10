@@ -4,7 +4,7 @@
 """A small Python program to find the nth Fibonacci number. The code implements the fast
 matrix exponential algorithm, using the expressions:
   F(2n) = ( 2 * F(n-1) - F(n) ) * F(n)
-  F(2n-1) = Fn^2 + F(n-1)^2 see :
+  F(2n-1) = Fn^2 + F(n-1)^2
 see : https://en.wikipedia.org/wiki/Fibonacci_number#Matrix_form
 and https://www.nayuki.io/page/fast-fibonacci-algorithms
 (Example for VAT IT)
